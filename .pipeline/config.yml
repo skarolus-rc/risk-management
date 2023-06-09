@@ -26,9 +26,9 @@ stages:
 steps:
   cloudFoundryDeploy:
     cloudFoundry:
-      apiEndpoint: "https://api.cf.eu10.hana.ondemand.com" # please verify if this is your API endpoint. If not, please change it
-      org: "myOrg" # add your org here
-      space: "mySpace" # add your space here
+      apiEndpoint: "https://api.cf.us10-001.hana.ondemand.com" # please verify if this is your API endpoint. If not, please change it
+      org: "24deb416trial" # add your org here
+      space: "dev" # add your space here
       credentialsId: "cfdeploy"
       appName: ""
     mtaDeployParameters: "-f --version-rule ALL"
