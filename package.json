@@ -11,7 +11,7 @@
   "private": true,
   "dependencies": {
     "@sap/cds": "5.1.5",
-    "@sap/cds-dk": "4.1.5",
+    "@sap/cds-dk": "7.0.1",
     "@sap/xsenv": "^3.4.0",
     "@sap/xssec": "^3.2.17",
     "express": "^4",
